@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEFD1912462CD54003D0BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFD1902462CD54003D0BCC /* AppDelegate.swift */; };
+		FAEFD1932462CD54003D0BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFD1922462CD54003D0BCC /* SceneDelegate.swift */; };
+		FAEFD1952462CD54003D0BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFD1942462CD54003D0BCC /* ViewController.swift */; };
+		FAEFD1982462CD54003D0BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD1962462CD54003D0BCC /* Main.storyboard */; };
+		FAEFD19B2462CD54003D0BCC /* MESOtel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAEFD1992462CD54003D0BCC /* MESOtel.xcdatamodeld */; };
+		FAEFD19D2462CD56003D0BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD19C2462CD56003D0BCC /* Assets.xcassets */; };
+		FAEFD1A02462CD56003D0BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD19E2462CD56003D0BCC /* LaunchScreen.storyboard */; };
+		FAEFD1AB2462CD56003D0BCC /* MESOtelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFD1AA2462CD56003D0BCC /* MESOtelTests.swift */; };
+		FAEFD1B62462CD56003D0BCC /* MESOtelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFD1B52462CD56003D0BCC /* MESOtelUITests.swift */; };
+		FAEFD1C62462CE15003D0BCC /* estonya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD1C52462CE15003D0BCC /* estonya.jpeg */; };
+		FAEFD1C82462CECB003D0BCC /* gezi-rehberi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD1C72462CECB003D0BCC /* gezi-rehberi.jpeg */; };
+		FAEFD1CA2462CF6E003D0BCC /* tarihce.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD1C92462CF6E003D0BCC /* tarihce.jpeg */; };
+		FAEFD1CC2462D0AB003D0BCC /* oda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD1CB2462D0AB003D0BCC /* oda.jpeg */; };
+		FAEFD1CE2462D13D003D0BCC /* resepsiyon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAEFD1CD2462D13D003D0BCC /* resepsiyon.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEFD1A72462CD56003D0BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFD1852462CD54003D0BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEFD18C2462CD54003D0BCC;
+			remoteInfo = MESOtel;
+		};
+		FAEFD1B22462CD56003D0BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFD1852462CD54003D0BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEFD18C2462CD54003D0BCC;
+			remoteInfo = MESOtel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEFD18D2462CD54003D0BCC /* MESOtel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MESOtel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFD1902462CD54003D0BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEFD1922462CD54003D0BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAEFD1942462CD54003D0BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEFD1972462CD54003D0BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEFD19A2462CD54003D0BCC /* MESOtel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MESOtel.xcdatamodel; sourceTree = "<group>"; };
+		FAEFD19C2462CD56003D0BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEFD19F2462CD56003D0BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEFD1A12462CD56003D0BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFD1A62462CD56003D0BCC /* MESOtelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MESOtelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFD1AA2462CD56003D0BCC /* MESOtelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MESOtelTests.swift; sourceTree = "<group>"; };
+		FAEFD1AC2462CD56003D0BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFD1B12462CD56003D0BCC /* MESOtelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MESOtelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFD1B52462CD56003D0BCC /* MESOtelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MESOtelUITests.swift; sourceTree = "<group>"; };
+		FAEFD1B72462CD56003D0BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFD1C52462CE15003D0BCC /* estonya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = estonya.jpeg; path = "../../ios/Estonya Gezi Rehberi/images/estonya.jpeg"; sourceTree = "<group>"; };
+		FAEFD1C72462CECB003D0BCC /* gezi-rehberi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gezi-rehberi.jpeg"; path = "../../ios/Estonya Gezi Rehberi/images/gezi-rehberi.jpeg"; sourceTree = "<group>"; };
+		FAEFD1C92462CF6E003D0BCC /* tarihce.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tarihce.jpeg; path = "../../ios/Estonya Gezi Rehberi/images/tarihce.jpeg"; sourceTree = "<group>"; };
+		FAEFD1CB2462D0AB003D0BCC /* oda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oda.jpeg; path = ../../oda.jpeg; sourceTree = "<group>"; };
+		FAEFD1CD2462D13D003D0BCC /* resepsiyon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = resepsiyon.jpeg; path = ../../resepsiyon.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEFD18A2462CD54003D0BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFD1A32462CD56003D0BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFD1AE2462CD56003D0BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEFD1842462CD54003D0BCC = {
+			isa = PBXGroup;
+			children = (
+				FAEFD18F2462CD54003D0BCC /* MESOtel */,
+				FAEFD1A92462CD56003D0BCC /* MESOtelTests */,
+				FAEFD1B42462CD56003D0BCC /* MESOtelUITests */,
+				FAEFD18E2462CD54003D0BCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEFD18E2462CD54003D0BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFD18D2462CD54003D0BCC /* MESOtel.app */,
+				FAEFD1A62462CD56003D0BCC /* MESOtelTests.xctest */,
+				FAEFD1B12462CD56003D0BCC /* MESOtelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEFD18F2462CD54003D0BCC /* MESOtel */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFD1CD2462D13D003D0BCC /* resepsiyon.jpeg */,
+				FAEFD1CB2462D0AB003D0BCC /* oda.jpeg */,
+				FAEFD1C92462CF6E003D0BCC /* tarihce.jpeg */,
+				FAEFD1C72462CECB003D0BCC /* gezi-rehberi.jpeg */,
+				FAEFD1C52462CE15003D0BCC /* estonya.jpeg */,
+				FAEFD1902462CD54003D0BCC /* AppDelegate.swift */,
+				FAEFD1922462CD54003D0BCC /* SceneDelegate.swift */,
+				FAEFD1942462CD54003D0BCC /* ViewController.swift */,
+				FAEFD1962462CD54003D0BCC /* Main.storyboard */,
+				FAEFD19C2462CD56003D0BCC /* Assets.xcassets */,
+				FAEFD19E2462CD56003D0BCC /* LaunchScreen.storyboard */,
+				FAEFD1A12462CD56003D0BCC /* Info.plist */,
+				FAEFD1992462CD54003D0BCC /* MESOtel.xcdatamodeld */,
+			);
+			path = MESOtel;
+			sourceTree = "<group>";
+		};
+		FAEFD1A92462CD56003D0BCC /* MESOtelTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFD1AA2462CD56003D0BCC /* MESOtelTests.swift */,
+				FAEFD1AC2462CD56003D0BCC /* Info.plist */,
+			);
+			path = MESOtelTests;
+			sourceTree = "<group>";
+		};
+		FAEFD1B42462CD56003D0BCC /* MESOtelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFD1B52462CD56003D0BCC /* MESOtelUITests.swift */,
+				FAEFD1B72462CD56003D0BCC /* Info.plist */,
+			);
+			path = MESOtelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEFD18C2462CD54003D0BCC /* MESOtel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFD1BA2462CD56003D0BCC /* Build configuration list for PBXNativeTarget "MESOtel" */;
+			buildPhases = (
+				FAEFD1892462CD54003D0BCC /* Sources */,
+				FAEFD18A2462CD54003D0BCC /* Frameworks */,
+				FAEFD18B2462CD54003D0BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MESOtel;
+			productName = MESOtel;
+			productReference = FAEFD18D2462CD54003D0BCC /* MESOtel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEFD1A52462CD56003D0BCC /* MESOtelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFD1BD2462CD56003D0BCC /* Build configuration list for PBXNativeTarget "MESOtelTests" */;
+			buildPhases = (
+				FAEFD1A22462CD56003D0BCC /* Sources */,
+				FAEFD1A32462CD56003D0BCC /* Frameworks */,
+				FAEFD1A42462CD56003D0BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEFD1A82462CD56003D0BCC /* PBXTargetDependency */,
+			);
+			name = MESOtelTests;
+			productName = MESOtelTests;
+			productReference = FAEFD1A62462CD56003D0BCC /* MESOtelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAEFD1B02462CD56003D0BCC /* MESOtelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFD1C02462CD56003D0BCC /* Build configuration list for PBXNativeTarget "MESOtelUITests" */;
+			buildPhases = (
+				FAEFD1AD2462CD56003D0BCC /* Sources */,
+				FAEFD1AE2462CD56003D0BCC /* Frameworks */,
+				FAEFD1AF2462CD56003D0BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEFD1B32462CD56003D0BCC /* PBXTargetDependency */,
+			);
+			name = MESOtelUITests;
+			productName = MESOtelUITests;
+			productReference = FAEFD1B12462CD56003D0BCC /* MESOtelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEFD1852462CD54003D0BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mes;
+				TargetAttributes = {
+					FAEFD18C2462CD54003D0BCC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FAEFD1A52462CD56003D0BCC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FAEFD18C2462CD54003D0BCC;
+					};
+					FAEFD1B02462CD56003D0BCC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FAEFD18C2462CD54003D0BCC;
+					};
+				};
+			};
+			buildConfigurationList = FAEFD1882462CD54003D0BCC /* Build configuration list for PBXProject "MESOtel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEFD1842462CD54003D0BCC;
+			productRefGroup = FAEFD18E2462CD54003D0BCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEFD18C2462CD54003D0BCC /* MESOtel */,
+				FAEFD1A52462CD56003D0BCC /* MESOtelTests */,
+				FAEFD1B02462CD56003D0BCC /* MESOtelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEFD18B2462CD54003D0BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFD1A02462CD56003D0BCC /* LaunchScreen.storyboard in Resources */,
+				FAEFD1C82462CECB003D0BCC /* gezi-rehberi.jpeg in Resources */,
+				FAEFD1CA2462CF6E003D0BCC /* tarihce.jpeg in Resources */,
+				FAEFD1CC2462D0AB003D0BCC /* oda.jpeg in Resources */,
+				FAEFD1CE2462D13D003D0BCC /* resepsiyon.jpeg in Resources */,
+				FAEFD19D2462CD56003D0BCC /* Assets.xcassets in Resources */,
+				FAEFD1982462CD54003D0BCC /* Main.storyboard in Resources */,
+				FAEFD1C62462CE15003D0BCC /* estonya.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFD1A42462CD56003D0BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFD1AF2462CD56003D0BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEFD1892462CD54003D0BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFD1952462CD54003D0BCC /* ViewController.swift in Sources */,
+				FAEFD19B2462CD54003D0BCC /* MESOtel.xcdatamodeld in Sources */,
+				FAEFD1912462CD54003D0BCC /* AppDelegate.swift in Sources */,
+				FAEFD1932462CD54003D0BCC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFD1A22462CD56003D0BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFD1AB2462CD56003D0BCC /* MESOtelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFD1AD2462CD56003D0BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFD1B62462CD56003D0BCC /* MESOtelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEFD1A82462CD56003D0BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEFD18C2462CD54003D0BCC /* MESOtel */;
+			targetProxy = FAEFD1A72462CD56003D0BCC /* PBXContainerItemProxy */;
+		};
+		FAEFD1B32462CD56003D0BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEFD18C2462CD54003D0BCC /* MESOtel */;
+			targetProxy = FAEFD1B22462CD56003D0BCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEFD1962462CD54003D0BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFD1972462CD54003D0BCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEFD19E2462CD56003D0BCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFD19F2462CD56003D0BCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEFD1B82462CD56003D0BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEFD1B92462CD56003D0BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEFD1BB2462CD56003D0BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MESOtel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MESOtel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEFD1BC2462CD56003D0BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MESOtel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MESOtel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAEFD1BE2462CD56003D0BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MESOtelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MESOtelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MESOtel.app/MESOtel";
+			};
+			name = Debug;
+		};
+		FAEFD1BF2462CD56003D0BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MESOtelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MESOtelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MESOtel.app/MESOtel";
+			};
+			name = Release;
+		};
+		FAEFD1C12462CD56003D0BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MESOtelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MESOtelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MESOtel;
+			};
+			name = Debug;
+		};
+		FAEFD1C22462CD56003D0BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MESOtelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MESOtelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MESOtel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEFD1882462CD54003D0BCC /* Build configuration list for PBXProject "MESOtel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFD1B82462CD56003D0BCC /* Debug */,
+				FAEFD1B92462CD56003D0BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFD1BA2462CD56003D0BCC /* Build configuration list for PBXNativeTarget "MESOtel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFD1BB2462CD56003D0BCC /* Debug */,
+				FAEFD1BC2462CD56003D0BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFD1BD2462CD56003D0BCC /* Build configuration list for PBXNativeTarget "MESOtelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFD1BE2462CD56003D0BCC /* Debug */,
+				FAEFD1BF2462CD56003D0BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFD1C02462CD56003D0BCC /* Build configuration list for PBXNativeTarget "MESOtelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFD1C12462CD56003D0BCC /* Debug */,
+				FAEFD1C22462CD56003D0BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAEFD1992462CD54003D0BCC /* MESOtel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAEFD19A2462CD54003D0BCC /* MESOtel.xcdatamodel */,
+			);
+			currentVersion = FAEFD19A2462CD54003D0BCC /* MESOtel.xcdatamodel */;
+			path = MESOtel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAEFD1852462CD54003D0BCC /* Project object */;
+}
